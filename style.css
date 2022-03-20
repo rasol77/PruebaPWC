@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@100;300;400;700&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+body {
+  font-family: 'roboto', sans-serif;
+}
+/*HEADER*/
+body > header > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #808080;
+}
+body > header > ul li:first-child {
+  display: flex;
+  align-items: flex-start;
+  font-weight: bold;
+  color: black;
+}
+body > header > ul > button {
+  background-color: #0808ee;
+  color: #ffffff;
+  border: none;
+
+  height: 35px;
+  width: 40px;
+}
+/*DIV*/
+
+body > div > h1 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+body > div > p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #808080;
+}
+body > div > button {
+  background-color: #0808ee;
+  color: #ffffff;
+  padding: 0.5rem;
+  border: none;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+body > div > button:last-child {
+  background-color: #ffffff;
+  color: #0808ee;
+  border-radius: 0.5rem;
+  border-color: #0808ee;
+}
+/*Fieldset*/
+
+body > fieldset > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  list-style-type: disc;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+body > section {
+  justify-content: center;
+}
+figure > img {
+  margin-left: 1rem;
+  display: flex;
+  align-items: flex-start;
+  min-height: 10rem;
+}
+footer {
+  color: #808080;
+  padding: 1rem;
+  margin-left: 2rem;
+  display: flex;
+}
+footer > a {
+  text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  color: #5e5d5d;
+  border-collapse: separate;
+}
